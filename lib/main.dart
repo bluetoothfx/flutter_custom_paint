@@ -9,6 +9,7 @@ import 'package:flutter_custom_paint/line_sample/stroke_painter.dart';
 import 'animated_shape_painter/animated_painter.dart';
 import 'circle_sample/circle_sample.dart';
 import 'image_editor/image_editor_screen.dart';
+import 'image_editor/image_marker_screen.dart';
 import 'polygon_sample/polygon_painter.dart';
 
 void main() => runApp(MyApp());
@@ -20,7 +21,7 @@ class MyApp extends StatelessWidget {
       title: 'Flutter Custom Painter',
       theme: ThemeData(primarySwatch: Colors.pink),
       //home: MyAnimatedPainter(),
-      home: DrawingScreen(),
+      home: ImageMarkerScreen(),
     );
   }
 }
